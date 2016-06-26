@@ -1,0 +1,19 @@
+#+TITLE: C Reference
+#+AUTHOR: Samuel Wilson
+#+EMAIL: samWson@users.noreply.github.com
+#+DATE: <2016-06-26 Sun>
+
+* Input/Output
+** scanf()
+Uses
+- Character input from keyboard.
+
+#+NAME: scanf
+#+BEGIN_SRC C
+scanf("<Input Conversion>", <pointer variable>);
+#+END_SRC
+
+Input Conversions must be in double quotes:
+- "%d" Matches an optionally signed integer written in decimal.
+- "%s" Matches a string containing only non-whitespace characters.
+- "%c" Matches a string of one or more characters.
