@@ -17,3 +17,7 @@ Input Conversions must be in double quotes:
 - "%d" Matches an optionally signed integer written in decimal.
 - "%s" Matches a string containing only non-whitespace characters.
 - "%c" Matches a string of one or more characters.
+
+scanf stores the input in the pointer variable argument.
+
+[[https://www.gnu.org/software/libc/manual/html_node/Formatted-Input.html#Formatted-Input][GNU C Library: 12.14 Formatted Input]]
